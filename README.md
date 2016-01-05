@@ -10,7 +10,7 @@ This file will be packaged with your application, when using `activator dist`.
   * rootユーザー（パスワード空）でログインできるようにしておく。
   * "Inca" DBを作成しておく。
 
-   `CREATE DATABASE \`Inca\` /*!40100 DEFAULT CHARACTER SET utf8 */`
+   ``CREATE DATABASE `Inca` /*!40100 DEFAULT CHARACTER SET utf8 */``
 
 3. アプリケーションの起動(Windows版)
 
