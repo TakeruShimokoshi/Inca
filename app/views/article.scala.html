@@ -1,0 +1,12 @@
+@(pageId :String, lists :Array[String])
+
+<table>
+<h1>@pageId サイトの記事一覧</h1>
+@for(list <- lists){
+    <tr>
+        <td>
+            @list
+        </td>
+    </tr>
+}
+</table>
